@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Lightkurve / Astropy caches
+~/.lightkurve/cache/
+~/.astropy/
+lightkurve-cache/
+*.fits
+*.fits.gz
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+*.env.local
+
+# Distribution
+*.tar.gz
+*.whl
+
+# Logs
+*.log
+logs/
+
+# Data downloads (never commit astronomical data files)
+data/downloads/
+data/cache/
